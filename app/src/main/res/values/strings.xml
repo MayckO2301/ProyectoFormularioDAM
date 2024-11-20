@@ -8,4 +8,10 @@
     <string name="boton_guardar">Guardar</string>
     <string name="boton_volver">Volver</string>
     <string name="app_name">SilderMN</string>
+    <string-array name="sexo_opciones">
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>39 tipos de gay</item>
+        <item>Silder</item>
+    </string-array>
 </resources>
