@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "3153643974",
+    "firebase_url": "https://formulario-am-default-rtdb.firebaseio.com",
+    "project_id": "formulario-am",
+    "storage_bucket": "formulario-am.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3153643974:android:7699a19abf7b1c9a28cac7",
+        "android_client_info": {
+          "package_name": "com.example.sildermn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQzgXDkPabNCoI_Eby0IjnreWRvAUcpEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

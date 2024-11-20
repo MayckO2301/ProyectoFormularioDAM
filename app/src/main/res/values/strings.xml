@@ -1,0 +1,11 @@
+<resources>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellido">Apellido</string>
+    <string name="hint_anio_nacimiento">Año de nacimiento</string>
+    <string name="hint_correo">Correo</string>
+    <string name="boton_seleccionar_foto">Seleccionar foto</string>
+    <string name="descripcion_foto">Foto seleccionada</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="boton_volver">Volver</string>
+    <string name="app_name">SilderMN</string>
+</resources>
