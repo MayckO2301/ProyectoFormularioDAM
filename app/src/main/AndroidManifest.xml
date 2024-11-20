@@ -14,22 +14,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SilderMN"
         tools:targetApi="31">
-        <activity
-            android:name=".RegistrosActivity"
-            android:exported="false" />
+
         <!-- Actividad principal -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- Definición única de FormularioActivity -->
+        </activity>
+
+        <!-- Definición única de FormularioActivity -->
         <activity
             android:name=".FormularioActivity"
             android:exported="true" />
+
     </application>
 
 </manifest>

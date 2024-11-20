@@ -68,34 +68,6 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp" />
 
-    <!-- Campo Edad -->
-    <EditText
-        android:id="@+id/inputEdad"
-        android:layout_width="0dp"
-        android:layout_height="56dp"
-        android:hint="Edad"
-        android:inputType="number"
-        android:padding="12dp"
-        app:layout_constraintTop_toBottomOf="@id/inputCorreo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp" />
-
-    <!-- Campo Sexo -->
-    <Spinner
-        android:id="@+id/inputSexo"
-        android:layout_width="0dp"
-        android:layout_height="56dp"
-        android:padding="12dp"
-        app:layout_constraintTop_toBottomOf="@id/inputEdad"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp" />
-
     <!-- Botón Seleccionar Foto -->
     <Button
         android:id="@+id/buttonSeleccionarFoto"
@@ -103,7 +75,7 @@
         android:layout_height="48dp"
         android:text="@string/boton_seleccionar_foto"
         android:padding="12dp"
-        app:layout_constraintTop_toBottomOf="@id/inputSexo"
+        app:layout_constraintTop_toBottomOf="@id/inputCorreo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
@@ -132,18 +104,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
 
-    <!-- Botón Ver Registros -->
-    <Button
-        android:id="@+id/buttonVerRegistros"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:text="Ver Registros"
-        android:padding="12dp"
-        app:layout_constraintTop_toBottomOf="@id/buttonGuardar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
-
     <!-- Botón Volver -->
     <Button
         android:id="@+id/buttonVolver"
@@ -151,7 +111,7 @@
         android:layout_height="48dp"
         android:text="@string/boton_volver"
         android:padding="12dp"
-        app:layout_constraintTop_toBottomOf="@id/buttonVerRegistros"
+        app:layout_constraintTop_toBottomOf="@id/buttonGuardar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
